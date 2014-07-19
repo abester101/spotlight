@@ -1,0 +1,55 @@
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: white;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 60px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #2980b9;
+$brand-primary: white;
+$jumbotron-bg: white;
+
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+
+}
+
+.navbar {
+    margin-bottom:0;
+}
+.jumbotron {
+      margin-bottom:0;
+}
+
+h1 {
+    color: #000000;
+}
+
+body {
+    color: #000000;
+}
+
+.spotlight {
+	text-align:left;
+	
+}
+
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 170px;
+	-webkit-border-radius: 170px;
+	-moz-border-radius: 170px;
+	background: url(/assets/ryan.jpg) no-repeat;
+}
