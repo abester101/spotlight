@@ -1,3 +1,4 @@
+<center>
 <%= form_for(@thought) do |f| %>
   <% if @thought.errors.any? %>
     <div id="error_explanation">
@@ -11,11 +12,12 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :story %><br>
-    <%= f.text_field :story %>
+    <%= f.text_area :story, :size => "70x25", class: "form-control" %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="form-group">
+    <%= f.submit class: "btn btn-info", class: "form-control" %>
   </div>
 <% end %>
+</center>
